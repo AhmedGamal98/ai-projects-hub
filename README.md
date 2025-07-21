@@ -44,7 +44,9 @@ The API is designed for travel, tourism, or discovery apps where users need pers
 - **Description**: This project is a powerful Arabic-language intelligent assistant that generates professional CV content using Google Gemini's generative AI model. The API receives structured user data and returns:
 
 ✅ A customized career objective
+
 🛠️ A list of 20 personalized skills (categorized)
+
 🎓 Recommended courses and certifications
 
 - **Technologies**: Python, Flask, Gemini API (Google Generative AI)
