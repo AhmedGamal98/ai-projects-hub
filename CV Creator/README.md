@@ -7,12 +7,18 @@ This project is an intelligent **CV Creator** system that generates personalized
 CV Creator/
 │
 ├── API/
+
 │ ├── api.py # Main Flask API implementation
+
 │ ├── requirements.txt # Dependencies for the API
+
 │ └── Procfile # Deployment file for platforms like Heroku
+
 │
 ├── API.ipynb # Jupyter Notebook version of the CV Creator logic
+
 ├── send_cv.php # PHP script to send the generated CV via email
+
 
 
 ---
