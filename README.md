@@ -39,7 +39,19 @@ The API is designed for travel, tourism, or discovery apps where users need pers
 🔗 [Go to Project 1](./Afaaq)
 
 ---
+### 🔹 Project 2: [CV Creator API (Arabic-Powered CV Assistant)](./CV%20Creator) 
 
+- **Description**: This project is a powerful Arabic-language intelligent assistant that generates professional CV content using Google Gemini's generative AI model. The API receives structured user data and returns:
+
+✅ A customized career objective
+🛠️ A list of 20 personalized skills (categorized)
+🎓 Recommended courses and certifications
+
+- **Technologies**: Python, Flask, Gemini API (Google Generative AI)
+
+🔗 [Go to Project 1](./CV%20Creator)
+
+---
 
 ---
 
