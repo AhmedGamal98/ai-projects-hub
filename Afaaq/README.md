@@ -138,7 +138,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 👤 Author
 Ahmed Gamal
-GitHub
-
-Made with ❤️ for smarter cities and travelers.
-
