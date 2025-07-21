@@ -30,50 +30,16 @@ This repository serves as a **comprehensive portfolio** of my work in Artificial
 
 Explore a variety of AI projects including Machine Learning, Deep Learning, and API integrations:
 
-### 🔹 Project 1: [Sentiment Analysis API](./Sentiment-Analysis-API)
+### 🔹 Project 1: [Afaaq - Gemini Places Recommender API](./Afaaq) 
 
-- **Description**: A Flask-based web API that performs sentiment analysis on input text using a pre-trained ML model.  
-- **Technologies**: Python, Flask, Requests, Scikit-learn  
+- **Description**: Afaaq is an AI-powered Flask web API that uses Gemini (Google Generative AI) and Selenium to recommend the top places in a given city and country based on categories or user descriptions. It enriches responses with dynamic Google Maps location URLs fetched using Selenium.
+The API is designed for travel, tourism, or discovery apps where users need personalized place recommendations.
+- **Technologies**: Python, Flask, Flask-Ngrok, Pyngrok, Gemini API (Google Generative AI), Selenium, BeautifulSoup
 
-🔗 [Go to Project 1](./Sentiment-Analysis-API)
-
----
-
-### 🔹 Project 2: [Image Classifier (CNN)](./Image-Classifier-CNN)
-
-- **Description**: Deep learning-based CNN for classifying images from a given dataset.  
-- **Technologies**: Python, TensorFlow/Keras, OpenCV  
-
-🔗 [Go to Project 2](./Image-Classifier-CNN)
+🔗 [Go to Project 1](./Afaaq)
 
 ---
 
-### 🔹 Project 3: [Fraud Detection System](./Fraud-Detection-System)
-
-- **Description**: A Machine Learning system to detect fraudulent transactions using historical data.  
-- **Technologies**: Python, Pandas, Numpy, Scikit-learn  
-
-🔗 [Go to Project 3](./Fraud-Detection-System)
-
----
-
-### 🔹 Project 4: [NLP Chatbot](./NLP-Chatbot)
-
-- **Description**: A basic chatbot using NLP techniques to understand and answer user input.  
-- **Technologies**: Python, NLTK, SpaCy  
-
-🔗 [Go to Project 4](./NLP-Chatbot)
-
----
-
-### 🔹 Project 5: [Your Project Name Here](./Your-Project-Folder)
-
-- **Description**: _[Briefly describe this project]_  
-- **Technologies**: _[Technology 1]_, _[Technology 2]_  
-
-🔗 [Go to Project 5](./Your-Project-Folder)
-
-> *Add more projects following the same format above.*
 
 ---
 
