@@ -49,7 +49,7 @@ The API is designed for travel, tourism, or discovery apps where users need pers
 
 - **Technologies**: Python, Flask, Gemini API (Google Generative AI)
 
-🔗 [Go to Project 1](./CV%20Creator)
+🔗 [Go to Project 2](./CV%20Creator)
 
 ---
 
