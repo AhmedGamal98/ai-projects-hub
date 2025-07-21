@@ -15,17 +15,7 @@ It’s perfect for **tourism**, **travel**, and **discovery** applications that 
 
 ---
 
-## 📁 Project Structure
 
-Afaaq-Gemini-Recommender/
-│
-├── app.py # Main Flask application
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -47,7 +37,7 @@ Edit
 
 ### 1. Install dependencies
 
-```bash
+
 pip install flask-ngrok pyngrok selenium
 2. Set your API keys
 Edit the following lines in app.py with your actual keys:
@@ -58,15 +48,12 @@ Edit
 ngrok.set_auth_token("YOUR_NGROK_API_KEY")
 genai.configure(api_key="YOUR_GEMINI_API_KEY")
 3. Run the app
-bash
-Copy
-Edit
+
 python app.py
 You’ll get a message like:
 
 arduino
-Copy
-Edit
+
 App running at https://xxxx-xx-xx-xx.ngrok-free.app
 Use this URL to access your public API.
 
@@ -76,8 +63,7 @@ Recommends places by country, city, category, and category types.
 
 Request JSON:
 json
-Copy
-Edit
+
 {
   "country": "Saudi Arabia",
   "city": "Riyadh",
@@ -86,8 +72,7 @@ Edit
 }
 Response:
 json
-Copy
-Edit
+
 {
   "places": [
     {
@@ -106,8 +91,7 @@ Recommends places using a free-form description of what the user wants.
 
 Request JSON:
 json
-Copy
-Edit
+
 {
   "country": "UAE",
   "city": "Dubai",
@@ -116,8 +100,7 @@ Edit
 Response: Same as /gemini
 🖥️ Sample Output (Colab)
 markdown
-Copy
-Edit
+
 ### Request:
 - Country: UAE
 - City: Dubai
@@ -159,6 +142,3 @@ GitHub
 
 Made with ❤️ for smarter cities and travelers.
 
-yaml
-Copy
-Edit
