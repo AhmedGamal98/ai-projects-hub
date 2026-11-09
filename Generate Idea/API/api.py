@@ -3,10 +3,11 @@ import google.generativeai as genai
 import random
 import string
 import re
+import os
 
 # ----------------- Configuration -----------------
 app = Flask(__name__)
-GENAI_API_KEY = "YOUR_GEMINI_API_KEY"
+GENAI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY")
 genai.configure(api_key=GENAI_API_KEY)
 gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 

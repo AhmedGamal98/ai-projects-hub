@@ -7,7 +7,7 @@ import re
 
 # ----------------- Configuration -----------------
 app = Flask(__name__)
-GENAI_API_KEY = "YOUR_GEMINI_API_KEY"
+GENAI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY")
 genai.configure(api_key=GENAI_API_KEY)
 gemini_model = genai.GenerativeModel("gemini-1.5-flash")
 

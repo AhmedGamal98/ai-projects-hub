@@ -1,93 +1,51 @@
-# 🚀 AI Projects Hub: Machine Learning, Deep Learning, & APIs
+# AI Projects Hub
 
-Welcome to my central repository for all things **Artificial Intelligence**!  
-This space showcases a diverse range of projects spanning **Machine Learning**, **Deep Learning**, and various **AI-powered APIs**. Whether you're into predictive models, neural networks, or intelligent system integrations — you'll find it all here.
+> Seven applied AI projects: deep-learning models, classic machine learning, and LLM-powered REST APIs built with Python, Flask and Google Gemini.
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?logo=googlegemini&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-## 🌟 Table of Contents
+## Projects
 
-- [✨ About This Repo](#-about-this-repo)  
-- [🤖 AI Projects](#-ai-projects)  
-- [🛠 How to Use](#-how-to-use)  
-- [🤝 Contribution](#-contribution)  
-- [📜 License](#-license)
+| Project | What it does | Tech |
+| --- | --- | --- |
+| [Genetic Medicine](Genetic%20Medicine) | Classifies sickle-cell disease from blood-smear images with a Swin Transformer (about 94% test accuracy), with a Gradio demo UI | PyTorch, timm, OpenCV, Gradio |
+| [Nabra](Nabra) | Speech emotion recognition: extracts audio features with librosa and classifies 7 emotions with a CNN, served as an API | TensorFlow / Keras, librosa, Flask |
+| [Medi Pal](Medi%20Pal) | Predicts how likely a patient is to take medication on time (medication adherence), served as an API | TensorFlow / Keras, scikit-learn, Flask |
+| [Afaaq](Afaaq) | Recommends top places in any city by category or description, with Google Maps links | Flask, Gemini, Selenium |
+| [CV Creator](CV%20Creator) | Generates Arabic CV content: career objective, 20 categorized skills, and suggested courses | Flask, Gemini, PHP client |
+| [Generate Idea](Generate%20Idea) | Suggests software project ideas from a specialization, field and system type | Flask, Gemini, PHP form |
+| [Job Seekers](Job%20Seekers) | Career-advice chatbot API (career change, job search, CV tips) | Flask, Gemini |
 
----
+## Getting started
 
-## ✨ About This Repo
+Each project lives in its own folder with a notebook (`.ipynb`) and, for the APIs, an `API/` folder.
 
-This repository serves as a **comprehensive portfolio** of my work in Artificial Intelligence.
+```bash
+git clone https://github.com/AhmedGamal98/ai-projects-hub.git
+cd ai-projects-hub/"CV Creator"/API
+pip install -r requirements.txt
+export GEMINI_API_KEY=your_key        # PowerShell: $env:GEMINI_API_KEY = "your_key"
+python api.py
+```
 
-### Features:
-- 🎯 **Diverse Applications** – Real-world AI-based problem-solving projects.  
-- 🗂️ **Clear Structure** – Each project has its own dedicated folder and README file.  
-- 🔄 **Continuous Growth** – Regular updates with new projects and enhancements.
+The notebooks were written for Google Colab. Where a notebook shows `YOUR_GEMINI_API_KEY` or `YOUR_NGROK_API_KEY`, put in your own key before running. No real keys are stored in this repository.
 
----
+## Large files
 
-## 🤖 AI Projects
+Trained models are attached to the [`files` release](https://github.com/AhmedGamal98/ai-projects-hub/releases/tag/files) instead of being stored in git.
 
-Explore a variety of AI projects including Machine Learning, Deep Learning, and API integrations:
+| File in release | Put it at | Size |
+| --- | --- | --- |
+| `medi-pal-model.keras` | `Medi Pal/Preloads/model.keras` | 62 MB |
+| `genetic-medicine-swin_classifier.h5` | `Genetic Medicine/Notebooks/swin_classifier.h5` | 4.5 MB |
 
-### 🔹 Project 1: [Afaaq - Gemini Places Recommender API](./Afaaq) 
+## Author
 
-- **Description**: Afaaq is an AI-powered Flask web API that uses Gemini (Google Generative AI) and Selenium to recommend the top places in a given city and country based on categories or user descriptions. It enriches responses with dynamic Google Maps location URLs fetched using Selenium.
-The API is designed for travel, tourism, or discovery apps where users need personalized place recommendations.
-- **Technologies**: Python, Flask, Flask-Ngrok, Pyngrok, Gemini API (Google Generative AI), Selenium, BeautifulSoup
-
-🔗 [Go to Project 1](./Afaaq)
-
----
-### 🔹 Project 2: [CV Creator API (Arabic-Powered CV Assistant)](./CV%20Creator) 
-
-- **Description**: This project is a powerful Arabic-language intelligent assistant that generates professional CV content using Google Gemini's generative AI model. The API receives structured user data and returns:
-
-✅ A customized career objective
-
-🛠️ A list of 20 personalized skills (categorized)
-
-🎓 Recommended courses and certifications
-
-- **Technologies**: Python, Flask, Gemini API (Google Generative AI)
-
-🔗 [Go to Project 2](./CV%20Creator)
-
----
-
----
-
-## 🛠 How to Use
-
-To explore or run any project:
-
-1. **Clone the repository**:
-   
-   git clone https://github.com/AhmedGamal98/AI-Porjects-Machine-Learning-Deep-Learning-APIs.git
-
-
-2. **Navigate to a project folder**:
-
-   
-   cd AI-Porjects-Machine-Learning-Deep-Learning-APIs/[project-folder-name]
-   
-
-3. **Follow the instructions** in each project’s `README.md` for setup, dependencies, and execution steps.
-
-
-
-## 🤝 Contribution
-
-Have ideas or found a bug?
-Feel free to **open an issue** or **submit a pull request** — contributions are welcome!
-
-
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-See the [LICENSE](./LICENSE) file for more details.
-
-
-
-Made with ❤️ by **Ahmed Gamal**
+**Ahmed Gamal Saber**, Full-Stack Web Developer & AI Engineer
+[LinkedIn](https://linkedin.com/in/ahmed-gamal-saber-382081169) · [GitHub](https://github.com/AhmedGamal98)
