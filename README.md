@@ -15,12 +15,26 @@
 | Project | What it does | Tech |
 | --- | --- | --- |
 | [Genetic Medicine](Genetic%20Medicine) | Classifies sickle-cell disease from blood-smear images with a Swin Transformer (about 94% test accuracy), with a Gradio demo UI | PyTorch, timm, OpenCV, Gradio |
-| [Nabra](Nabra) | Speech emotion recognition: extracts audio features with librosa and classifies 7 emotions with a CNN, served as an API | TensorFlow / Keras, librosa, Flask |
+| [Nabra](Nabra) | Speech analysis: extracts audio features (MFCC, mel spectrogram) with librosa, applies audio augmentation, and classifies a voice recording as anxiety, depression or normal with a CNN, served as an API | TensorFlow / Keras, librosa, Flask |
 | [Medi Pal](Medi%20Pal) | Predicts how likely a patient is to take medication on time (medication adherence), served as an API | TensorFlow / Keras, scikit-learn, Flask |
 | [Afaaq](Afaaq) | Recommends top places in any city by category or description, with Google Maps links | Flask, Gemini, Selenium |
 | [CV Creator](CV%20Creator) | Generates Arabic CV content: career objective, 20 categorized skills, and suggested courses | Flask, Gemini, PHP client |
 | [Generate Idea](Generate%20Idea) | Suggests software project ideas from a specialization, field and system type | Flask, Gemini, PHP form |
 | [Job Seekers](Job%20Seekers) | Career-advice chatbot API (career change, job search, CV tips) | Flask, Gemini |
+
+## Results
+
+Figures taken from the project notebooks.
+
+| Genetic Medicine: confusion matrix (326 test images) | Genetic Medicine: training curves |
+| --- | --- |
+| ![Confusion matrix: 150 and 155 correct, 13 and 8 wrong](docs/images/genetic-medicine-confusion-matrix.png) | ![Training and validation accuracy and loss over 50 epochs](docs/images/genetic-medicine-training-curves.png) |
+
+![True vs predicted labels on sample blood-smear images](docs/images/genetic-medicine-predictions.png)
+
+| Nabra: mel spectrogram of a voice sample | Medi Pal: training vs validation loss |
+| --- | --- |
+| ![Mel spectrogram](docs/images/nabra-mel-spectrogram.png) | ![Training and validation loss](docs/images/medi-pal-training-loss.png) |
 
 ## Getting started
 
